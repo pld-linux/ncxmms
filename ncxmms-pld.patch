@@ -1,0 +1,54 @@
+diff -uNr ncxmms-0.3-org/keys.c ncxmms-0.3/keys.c
+--- ncxmms-0.3-org/keys.c	Sat Dec  6 15:34:54 2003
++++ ncxmms-0.3/keys.c	Sat Dec  6 21:40:47 2003
+@@ -22,8 +22,8 @@
+ #define __USE_GNU 1
+ #include <string.h>
+ #undef __USE_GNU
+-#include <ncurses.h>
+-#include <menu.h>
++#include <ncurses/ncurses.h>
++#include <ncurses/menu.h>
+ #include <xmms/xmmsctrl.h>
+ #include "defines.h"
+ #include "file.h"
+diff -uNr ncxmms-0.3-org/ncxmms.c ncxmms-0.3/ncxmms.c
+--- ncxmms-0.3-org/ncxmms.c	Sat Dec  6 04:06:13 2003
++++ ncxmms-0.3/ncxmms.c	Sat Dec  6 21:40:58 2003
+@@ -22,8 +22,8 @@
+ #include <locale.h>
+ #include <string.h>
+ #include <unistd.h>
+-#include <ncurses.h>
+-#include <menu.h>
++#include <ncurses/ncurses.h>
++#include <ncurses/menu.h>
+ #include <xmms/xmmsctrl.h>
+ #include "defines.h"
+ #include "playlist.h"
+diff -uNr ncxmms-0.3-org/playlist.c ncxmms-0.3/playlist.c
+--- ncxmms-0.3-org/playlist.c	Sat Dec  6 04:06:13 2003
++++ ncxmms-0.3/playlist.c	Sat Dec  6 21:41:11 2003
+@@ -19,8 +19,8 @@
+ 
+ #include <stdlib.h>
+ #include <string.h>
+-#include <ncurses.h>
+-#include <menu.h>
++#include <ncurses/ncurses.h>
++#include <ncurses/menu.h>
+ #include <xmms/xmmsctrl.h>
+ #include "defines.h"
+ #include "playlist.h"
+diff -uNr ncxmms-0.3-org/status.c ncxmms-0.3/status.c
+--- ncxmms-0.3-org/status.c	Thu Nov 27 00:01:52 2003
++++ ncxmms-0.3/status.c	Sat Dec  6 21:41:21 2003
+@@ -18,7 +18,7 @@
+  */
+ 
+ #include <xmms/xmmsctrl.h>
+-#include <ncurses.h>
++#include <ncurses/ncurses.h>
+ 
+ /*
+  * NAME:        print_status
