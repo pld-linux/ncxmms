@@ -1,5 +1,5 @@
 Summary:	An ncurses-based XMMS frontend
-Summary(pl):	Oparty o ncurses system sterowania XMMS-em
+Summary(pl.UTF-8):   Oparty o ncurses system sterowania XMMS-em
 Name:		ncxmms
 Version:	0.3
 Release:	1
@@ -19,11 +19,11 @@ include its ability to control XMMS from a text environment using
 comfortable menu library widgets. It can also quickly find items in
 the playlist after the user enters part of the name.
 
-%description -l pl
+%description -l pl.UTF-8
 NCXmms jest interfejsem sterowania XMMS-em opartym na bibliotece
-ncurses. Jego g³ówne cechy to mo¿liwo¶æ kontrolowania XMMS-a ze
-¶rodowiska tekstowego, u¿ywaj±c wygodnego systemu menu. Mo¿na tak¿e
-szybko wyszukiwaæ elementy listy odtwarzania poprzez wpisanie czê¶ci
+ncurses. Jego gÅ‚Ã³wne cechy to moÅ¼liwoÅ›Ä‡ kontrolowania XMMS-a ze
+Å›rodowiska tekstowego, uÅ¼ywajÄ…c wygodnego systemu menu. MoÅ¼na takÅ¼e
+szybko wyszukiwaÄ‡ elementy listy odtwarzania poprzez wpisanie czÄ™Å›ci
 jego nazwy.
 
 %prep
