@@ -1,5 +1,5 @@
 Summary:	An ncurses-based XMMS frontend
-Summary(pl.UTF-8):   Oparty o ncurses system sterowania XMMS-em
+Summary(pl.UTF-8):	Oparty o ncurses system sterowania XMMS-em
 Name:		ncxmms
 Version:	0.3
 Release:	1
